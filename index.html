@@ -3,23 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
   </head>
   <body>
     <header>
-      <div id="header-name">A Nice Website</div>
-      <div class="header-links">About</div>
-      <div class="header-links">Learn More</div>
-      <div class="header-links">Contact</div>
-    </header>
-    <section id="main-section">
-      <div class="main-title">Welcome to Our Platform</div>
-      <div class="main-content">
-        Join us and explore endless possibilities to grow, learn, and succeed!
+      <a class="header-name" href="#">A Nice Website</a>
+      <div class="header-link">
+        <a href="#">About</a>
+        <a href="#">Learn More</a>
+        <a href="#">Contact</a>
       </div>
-      <button class="main-button-sign-up">Sign Up</button>
-      <img src="welcome-image.jpg" alt="People working together" />
+    </header>
+
+    <section id="main-section">
+      <div class="main-content">
+        <div class="main-title">Welcome to Our Platform</div>
+        <div class="main-description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quod eius nulla optio et 
+          Join us and explore endless possibilities to grow, learn, and succeed!
+        </div>
+        <button class="main-button-sign-up">Sign Up</button>
+      </div>
+
+      <div class="main-image">
+        <img src="./images/welcome-image.jpg" alt="People working together" />
+      </div>
     </section>
 
     <section id="feature-section">
@@ -68,7 +77,9 @@
     </section>
 
     <footer>
-      <div class="footer-copyright">© 2024 My Company. All Rights Reserved.</div>
+      <div class="footer-copyright">
+        © 2024 My Company. All Rights Reserved.
+      </div>
     </footer>
   </body>
 </html>
