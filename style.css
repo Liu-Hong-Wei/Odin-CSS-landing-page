@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -8,7 +12,6 @@ body {
 }
 
 header {
-  box-sizing: border-box;
   height: 6vh;
   padding: 2vw 20vw;
   background-color: #1f2937;
@@ -50,7 +53,7 @@ header a {
 }
 
 .main-content {
-  height: 18em;
+  height: 16em;
   width: 45em;
   display: flex;
   flex-direction: column;
@@ -78,7 +81,6 @@ header a {
   width: 22em;
   border-radius: 5%;
 }
-
 
 #feature-section {
   height: 100vh;
@@ -113,7 +115,7 @@ header a {
 }
 
 #quote-section {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   margin: auto;
   padding: 2vw 15vw;
   height: 100vh;
@@ -127,7 +129,7 @@ header a {
 .quote-content {
   font-size: 50px;
   font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: 100;
 }
 
@@ -135,4 +137,58 @@ header a {
   font-size: 30px;
   font-weight: bold;
   align-self: flex-end;
+}
+
+#cta-section {
+  background-color: white;
+  color: white;
+  padding: 2vw 5vw;
+  height: 70vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  background-color: #3b82f6;
+  padding: 3vw 5vw;
+  width: 80vw;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-title {
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.cta-content {
+  font: 20px bold ;
+}
+
+.end-button-sign-up {
+  color: white;
+
+  background-color: #3882f6;
+  width: 12em;
+  height: 3em;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  height: 6vh;
+  font-size: small;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
