@@ -39,7 +39,6 @@ header a {
 }
 
 #main-section {
-  box-sizing: border-box;
   height: 94vh;
   color: white;
   padding: 2vw 21vw;
@@ -78,4 +77,36 @@ header a {
 .main-image img {
   width: 22em;
   border-radius: 5%;
+}
+
+
+#feature-section {
+  height: 100vh;
+  color: white;
+  padding: 2vw 5vw;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.feature-container {
+  margin: auto;
+  width: 20em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.feature-description {
+  color: #1f2937;
+  font-size: 1em;
+  font-weight: 10px;
+}
+
+.feature-image {
+  width: 16em;
+  border-radius: 3%;
 }
