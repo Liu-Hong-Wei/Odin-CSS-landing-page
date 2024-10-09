@@ -83,7 +83,7 @@ header a {
 #feature-section {
   height: 100vh;
   color: white;
-  padding: 2vw 5vw;
+  padding: 2vw 2vw;
   background-color: white;
 
   display: flex;
@@ -104,9 +104,35 @@ header a {
   color: #1f2937;
   font-size: 1em;
   font-weight: 10px;
+  text-align: center;
 }
 
 .feature-image {
   width: 16em;
   border-radius: 3%;
+}
+
+#quote-section {
+  background-color: #E5E7EB;
+  margin: auto;
+  padding: 2vw 15vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.quote-content {
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
+
+.quote-author {
+  font-size: 30px;
+  font-weight: bold;
+  align-self: flex-end;
 }
